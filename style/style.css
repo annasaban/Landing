@@ -703,3 +703,31 @@
     line-height: 34px;
     margin-bottom: 26px;
 }
+
+/* Footer */
+
+.footer {
+    background-color: #313030;
+    padding: 0 1vw;
+}
+
+.footer__content {
+    box-sizing: border-box;
+    padding: 20px 0 0;
+    color: #B8B8B8;
+    min-height: 112px;
+    align-items: center;
+}
+
+.footer__copyright {
+    margin: 0;
+    line-height: 26px;
+}
+
+.footer__social-links > .footer__link:not(:last-child) {
+    margin-right: 18px;
+}
+
+.footer__link {
+    display: inline-block;
+}
