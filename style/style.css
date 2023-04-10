@@ -573,7 +573,9 @@
     background-color: #2D2D2D;
 }
 
-.feedback {}
+/* .feedback__left-box {
+    flex: 1 1 auto;
+} */
 
 .feedback__header {
     margin-bottom: 34px;
@@ -692,6 +694,7 @@
     margin: 0;
     text-transform: uppercase;
     line-height: 34px;
+    color: #e0e0e0;
 }
 
 .contacts__address {
@@ -730,4 +733,71 @@
 
 .footer__link {
     display: inline-block;
+}
+
+/* Responsive */
+
+@media screen and (max-widht: 1286px) {
+    .intro {
+        flex-wrap: nowrap;
+    }
+    .intro__content {
+        width: 50%;
+        box-sizing: border-box;
+        margin-right: 0;
+        padding-right: 16px;
+    }
+
+    .intro__heading {
+        font-size: 5vw;
+    }
+
+    .intro__image {
+        width: 100%;
+        height: auto;
+    }
+
+    .products {
+        justify-content: flex-start;
+    }
+
+    .product {
+        max-width: 100%;
+        margin-right: 10px;
+    }
+
+    .feedback {
+        margin: 0;
+        margin-bottom: 30px;
+        padding: 0 1vw;
+        grid-column: 1 / 6;
+        grid-row: 1 / 2;
+    }
+
+    .feedback__body {
+        margin-right: 0;
+    }
+
+    .feedback-contacts {
+        flex-wrap: wrap;
+        padding-left: initial;
+        padding-right: initial;
+        padding-bottom: 0;
+        grid-template-columns: 100%;
+    }
+
+    .feedback__left-box {
+        flex: 0 1 auto;
+    }
+
+    .contacts {
+        width: 100%;
+        max-width: 100%;
+        grid-column: 1 / 6;
+        grid-row: 2 / 3;
+    }
+
+    .feedback-contacts::after {
+        content: initial;
+    }
 }
