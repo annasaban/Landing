@@ -51,7 +51,7 @@
 }
 
 .menu__link {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     display: flex;
     align-items: center;
     padding: 0 30px;
@@ -59,6 +59,23 @@
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header__line {
+    border: 1px solid #FF2D2D;
+    width: 134px;
+    max-height: 5px;
+    background-color: #FF2D2D;
+    border: none;
+}
+
+.section__heading {
+    color: #000000;
+    margin: 0;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
+    font-weight: 600;
+    line-height: 56px;
     text-transform: uppercase;
 }
 
@@ -82,7 +99,7 @@
 }
 
 .intro__heading {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     display: flex;
     margin: 0;
     font-size: 60px;
@@ -93,7 +110,7 @@
 }
 
 .intro__text {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     display: flex;
     margin: 0;
     line-height: 28px;
@@ -104,7 +121,7 @@
 }
 
 .action-button {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     display: flex;
     box-sizing: border-box;
     display: inline-block;
@@ -155,7 +172,7 @@
 }
 
 .services__heading {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     display: flex;
     position: relative;
     bottom: 6px;
@@ -165,14 +182,14 @@
 }
 
 .services__text {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     margin: 0;
     line-height: 28px;
     margin-bottom: 50px;
 }
 
 .action-button_white {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     font-size: 18px;
     color: #FF2D2D;
     background-color: #ffffff;
@@ -197,7 +214,7 @@
 }
 
 .service__heading {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     margin: 0;
     letter-spacing: 1.5px;
     font-weight: 600;
@@ -213,7 +230,7 @@
 }
 
 .service__text {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     margin: 0;
     line-height: 28px;
 }
@@ -248,7 +265,7 @@
 }
 
 .feature__heading {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     font-size: 42px;
     text-transform: uppercase;
     padding-left: 14px;
@@ -256,7 +273,7 @@
 }
 
 .feature__text {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     font-size: 16px;
     line-height: 28px;
     max-width: 500px;
@@ -265,8 +282,6 @@
 
 .feature__line {
     border: 1px solid #FF2D2D;
-    width: 134px;
-    max-height: 4px;
 }
 
 .products__filter {
@@ -282,7 +297,7 @@
 
 .products__link {
 
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     position: relative;
     text-transform: uppercase;
     left: 46px;
@@ -338,14 +353,14 @@
 }
 
 .team__heading {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     font-size: 42px;
     text-transform: uppercase;
     margin-bottom: 24px;
 }
 
 .team__text {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     font-size: 16px;
     margin: 0;
     line-height: 28px;
@@ -356,8 +371,6 @@
 
 .team__line {
     border: 1px solid #FF2D2D;
-    width: 134px;
-    max-height: 4px;
     margin-left: 0;
 }
 
@@ -410,13 +423,14 @@
 }
 
 .team__selected-about {
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     margin: 0;
     line-height: 28px;
     margin-bottom: 34px;
 }
 
 .team__selected-name {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     margin-right: 30px;
     bottom: 6px;
     font-weight: bold;
@@ -501,7 +515,7 @@
 }
 
 .subscribe__heading {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     color: #ffffff;
     line-height: 24px;
     letter-spacing: 1px;
@@ -510,7 +524,7 @@
 }
 
 .subscribe__text {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     margin: 0;
     letter-spacing: 1px;
     font-size: 16px;
@@ -541,7 +555,7 @@
 }
 
 .subscribe__button {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     display: flex;
     align-items: center;
     justify-content: center;
@@ -579,10 +593,11 @@
 
 .feedback__header {
     margin-bottom: 34px;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif'
 }
 
 .feedback__heading {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     font-size: 42px;
     font-weight: 700;
     margin: 0;
@@ -599,8 +614,6 @@
 
 .feedback__line {
     border: 1px solid #FF2D2D;
-    width: 134px;
-    max-height: 4px;
     margin-left: 0;
 }
 
@@ -644,7 +657,7 @@
 }
 
 .feedback__message {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     resize: none;
     font-size: 16px;
     width: 100%;
@@ -660,7 +673,7 @@
 }
 
 .feedback__button {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     display: flex;
     align-items: center;
     justify-content: center;
@@ -688,7 +701,7 @@
 }
 
 .contacts__heading {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     font-size: 18px;
     font-weight: 700;
     margin: 0;
@@ -702,7 +715,7 @@
 }
 
 .contacts__line {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';
     line-height: 34px;
     margin-bottom: 26px;
 }
