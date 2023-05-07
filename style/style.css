@@ -219,19 +219,19 @@
 }
 
 .service__heading_manage::before {
-    content: url(../images/Service\ 1.png);
+    content: url(../images/Service_1.png);
 }
 
 .service__heading_ux::before {
-    content: url(../images/Service\ 2.png);
+    content: url(../images/Service_2.png);
 }
 
 .service__heading_logo::before {
-    content: url(../images/Service\ 3.png);
+    content: url(../images/Service_3.png);
 }
 
 .service__heading_animation::before {
-    content: url(../images/Service\ 4.png);
+    content: url(../images/Service_4.png);
 }
 
 /* Feature products */
@@ -477,7 +477,7 @@
 
 .member__photo {
     display: block;
-    width: 198px;
+    width: 170px;
     height: 218px;
     background-color: gray;
 }
